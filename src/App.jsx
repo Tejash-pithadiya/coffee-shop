@@ -15,10 +15,10 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/coffee-shop'>
       <Navbar/>
       <Routes>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/coffee-shop' element={<Home/>}/>
       <Route path='/about-us' element={<Aboutus/>}/>
       <Route path='/menu' element={<Menu/>}/>
       <Route path='/contact-us' element={<Contactus/>}/>
